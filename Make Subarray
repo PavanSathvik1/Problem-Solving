@@ -34,7 +34,7 @@ class Codechef
 		        arr[j] = scan.nextInt();
 		    }
 		    int count = 0;
-		    for(int k=0;k<arr.length;k++){
+		    for(int k=0;k<arr.length;l++){
 		        if(arr[k]==1){
 		            for(int l=k+1;l<arr.length;k++){
 		                if(arr[l]==1){
