@@ -1,44 +1,17 @@
 /* Despite everyone's advice, Chef has decided to gamble away his money.
 
-Today he chose a dice game to bet on. Chef will roll 
-2
-2 die one after the other, and Chef wins if and only if the sum of the 
-2
-2 dice rolls is exactly 
-7
-7.
+Today he chose a dice game to bet on. Chef will roll 2 die one after the other, and Chef wins if and only if the sum of the 2 dice rolls is exactly 7.
 
-The die are standard fair 
-6
-6-faced, with numbers 
-1
-1 through 
-6
-6 written on the sides.
+The die are standard fair 6-faced, with numbers 1 through 6 written on the sides.
 
-Chef's first roll turned up to be the number 
-A
-A. What number does Chef need on his second roll to win the game? It can be proven that this number exists and is unique.
+Chef's first roll turned up to be the number A. What number does Chef need on his second roll to win the game? It can be proven that this number exists and is unique.
 
 Input Format
-The first and only line of input contains a single integer 
-A
-A.
+The first and only line of input contains a single integer A.
 Output Format
-Output the required dice roll on the 
-2
-n
-d
-2 
-nd
-  dice for Chef to win the game.
+Output the required dice roll on the 2nd dice for Chef to win the game.
 
 Constraints
-1
-≤
-A
-≤
-6
 1≤A≤6*/
 
 import java.util.*;
