@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+class Practice{
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		String cinema = scan.nextLine();
+		String cinemas[] = cinema.split(" ");
+
+		int max = 0;
+		int num=0;
+		for(String i:cinemas){
+			if(i.equals("0")){
+				num++;
+				if(max<num){
+					max = num;
+				}
+			}
+			else{
+				num=0;
+			}
+		}
+		System.out.println(max);
+	}
+}
