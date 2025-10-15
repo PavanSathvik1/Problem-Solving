@@ -1,0 +1,26 @@
+import java.util.*;
+
+class Practice{
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		String min = scan.next();
+		min = min.replace("[","");
+		min = min.replace("]","");
+		String mins[] = min.split(",");
+
+		int max = 0;
+		int k = scan.nextInt();
+		for(int i=0;i<mins.length;i++){
+			if(i+k<mins.length){
+				int num=0;
+				for(int j=0;j<k;j++){
+					num += Integer.parseInt(mins[i+j]);
+				}
+				if(num>max){
+					max = num;
+				}
+			}
+		}
+		System.out.println(max);
+	}
+}
